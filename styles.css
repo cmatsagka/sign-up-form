@@ -93,6 +93,32 @@ select:open::picker-icon {
   rotate: 180deg;
 }
 
+::picker(select) {
+  border: none;
+}
+
+option {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    border: var(--border);
+    /* border-radius: 16px; */
+    background: var(--surface-2);
+    color: var(--text-1);
+    transition: 0.4s;
+    padding: 1ex 2ex;
+}
+
+::picker(select) {
+  border-radius: 16px;
+}
+
+option:hover,
+option:focus {
+  background: var(--surface-0);
+  color: var(--accent);
+}
+
 .sign-up {
     display: flex;
     flex-direction: column;
