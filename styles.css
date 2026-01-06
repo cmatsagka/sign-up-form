@@ -181,7 +181,7 @@ option::checkmark {
 }
 
 .after_submit {
-    /* display: none; */
+    display: none;
     text-align: center;
     padding: 2rem;
     border: 1px dashed var(--accent);
