@@ -20,12 +20,20 @@ body {
     font-size: 1.125rem;
     line-height: 1.6;
 
-    /* background-color: var(--surface-0); */
     background: radial-gradient(circle at top right, #1a2e1a, #0a110a);
     color: var(--text-1);
     min-height:  100vh;
 
     padding-block-start: 6vb;
+}
+
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.15rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+   text-align: center;
+   color: var(--accent);
 }
 
 input,
@@ -62,10 +70,6 @@ h1 {
     line-height: 1;
 }
 
-.logo {
-    margin-bottom: 4rem;
-    margin-left: 3rem;
-}
 
 label {
     font-size: 1rem;
