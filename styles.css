@@ -88,11 +88,8 @@ select {
     color: var(--text-1);
     border: var(--border);
     border-radius: 12px;
-    /* padding: 1ex 2ex; */
     padding: 1rem;
     transition: all 0.3s ease;
-
-    width: 100%;
 }
 
 input:focus, select:focus {
@@ -164,7 +161,7 @@ option {
     gap: 0.5rem;
     border: var(--border);
     background: var(--surface-2);
-    color: var(--text-1);
+    color: var(--surface-0);
     transition: 0.4s;
     padding: 1ex 2ex;
 }
