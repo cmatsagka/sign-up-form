@@ -116,6 +116,14 @@ button:hover {
     transform: translateY(-2px);
 }
 
+.cta_description {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--text-2);
+    font-style: italic;
+}
+
 select,
 ::picker(select) {
     appearance: base-select;
@@ -180,11 +188,3 @@ option::checkmark {
     width: min(100% - 4rem, 800px);
     margin: 0 auto;
 }
-
-
-
-.cta_description {
-    font-size: 1rem;
-    line-height: 1.4;
-}
-
