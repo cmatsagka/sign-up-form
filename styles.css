@@ -32,12 +32,26 @@ select {
     font: inherit;
 }
 
+form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.info_input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 input {
     background: var(--surface-2);
     color: var(--text-1);
     border: var(--border);
     border-radius: 16px;
     padding: 1ex 2ex;
+
+    width: 100%;
 }
 
 h1 {
