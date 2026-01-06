@@ -26,6 +26,12 @@ body {
     padding-block-start: 10vb;
 }
 
+input,
+button,
+select {
+    font: inherit;
+}
+
 input {
     background: var(--surface-2);
     color: var(--text-1);
@@ -68,4 +74,9 @@ button {
 button:hover,
 button:focus {
     background-color: hsl(from var(--accent) h s 30%);
+}
+
+.cta_description {
+    font-size: 1rem;
+    line-height: 1.4;
 }
