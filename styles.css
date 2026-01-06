@@ -20,8 +20,10 @@ body {
     font-size: 1.125rem;
     line-height: 1.6;
 
-    background-color: var(--surface-0);
+    /* background-color: var(--surface-0); */
+    background: radial-gradient(circle at top right, #1a2e1a, #0a110a);
     color: var(--text-1);
+    min-height:  100vh;
 
     padding-block-start: 6vb;
 }
