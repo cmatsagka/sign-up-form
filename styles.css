@@ -32,8 +32,23 @@ body {
     letter-spacing: 0.15rem;
     font-weight: 400;
     margin-bottom: 3rem;
-   text-align: center;
-   color: var(--accent);
+    text-align: center;
+    color: var(--accent);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 300;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.title p {
+    color: var(--text-2);
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
 }
 
 input,
@@ -44,7 +59,7 @@ select {
 
 form {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-direction: column;
 }
 
@@ -63,13 +78,6 @@ input {
 
     width: 100%;
 }
-
-h1 {
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1;
-}
-
 
 label {
     font-size: 1rem;
