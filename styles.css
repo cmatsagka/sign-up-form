@@ -119,6 +119,14 @@ option:focus {
   color: var(--accent);
 }
 
+option:checked {
+  font-weight: bold;
+}
+
+option::checkmark {
+  display: none;
+}
+
 .sign-up {
     display: flex;
     flex-direction: column;
