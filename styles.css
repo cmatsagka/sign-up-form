@@ -33,3 +33,25 @@ input {
     border-radius: 16px;
     padding: 1ex 2ex;
 }
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+label {
+    font-size: 1rem;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: var(--surface-1);
+    padding: 3rem;
+    border-radius: 24px;
+    width: min(100% - 4rem, 1200px);
+    margin: 0 auto;
+}
