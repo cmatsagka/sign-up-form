@@ -94,6 +94,28 @@ input:invalid:not(:placeholder-shown){
     box-shadow: 0 0 0 2px var(--required);
 }
 
+.cta {
+    margin-top: 1rem;
+}
+
+button {
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: var(--surface-0);
+    padding: 1.2rem;
+    border: 0;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--text-1);
+    transform: translateY(-2px);
+}
+
 select,
 ::picker(select) {
     appearance: base-select;
@@ -159,19 +181,7 @@ option::checkmark {
     margin: 0 auto;
 }
 
-button {
-    cursor: pointer;
-    background-color: var(--surface-0);
-    color: var(--text-1);
-    padding: 1em 1.5em;
-    border: 0;
-    border-radius: 16px;
-}
 
-button:hover,
-button:focus {
-    background-color: hsl(from var(--accent) h s 30%);
-}
 
 .cta_description {
     font-size: 1rem;
