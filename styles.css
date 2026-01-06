@@ -51,51 +51,52 @@ h1 {
     font-size: 1rem;
 }
 
-input,
-button,
-select {
-    font: inherit;
-}
-
 form {
     display: flex;
     gap: 1.5rem;
     flex-direction: column;
 }
 
-.info_input {
+.info_input p {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-input {
+label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: var(--accent);
+}
+
+input,
+select {
+    font: inherit; 
     background: var(--surface-2);
     color: var(--text-1);
     border: var(--border);
-    border-radius: 16px;
-    padding: 1ex 2ex;
+    border-radius: 12px;
+    /* padding: 1ex 2ex; */
+    padding: 1rem;
+    transition: all 0.3s ease;
 
     width: 100%;
 }
 
-label {
-    font-size: 1rem;
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    background-color: hsla(125, 20%, 60%, 0.15);
+}
+
+input:invalid:not(:placeholder-shown){
+    box-shadow: 0 0 0 2px var(--required);
 }
 
 select,
 ::picker(select) {
     appearance: base-select;
-}
-
-select{
-    padding: 1ex 2ex;
-    color: var(--text-0);
-    border: var(--border);
-    border-radius: 16px;
-    background: var(--surface-2);
-    cursor: pointer;
-    transition: 0.4s
 }
 
 select:hover,
@@ -177,14 +178,3 @@ button:focus {
     line-height: 1.4;
 }
 
-input:invalid {
-    box-shadow: 0 0 5px 1px var(--required);
-}
-
-input:valid {
-    box-shadow: 0 0 5px 1px var(--surface-0);
-}
-
-input:focus:invalid {
-  box-shadow: none;
-}
