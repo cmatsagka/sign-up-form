@@ -1,3 +1,14 @@
+:root {
+    --surface-0: hsl(126, 59%, 13%);
+    --surface-1: hsl(125, 20%, 43%);
+    --surface-2: hsl(125, 15%, 67%);
+    --text-1: hsl(120, 4%, 91%);
+    --text-2: hsl(0, 0%, 60%);
+    --required: hsl(5, 100%, 74%);
+    --accent: hsl(126, 61%, 80%);
+    --border: 1px solid hsl(125, 20%, 43%);
+}
+
 * {
     padding: 0;
     margin: 0;
