@@ -179,3 +179,16 @@ option:checked {
 option::checkmark {
   display: none;
 }
+
+.after_submit {
+    /* display: none; */
+    text-align: center;
+    padding: 2rem;
+    border: 1px dashed var(--accent);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.after_submit strong {
+    color: var(--accent);
+}
