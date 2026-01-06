@@ -23,7 +23,7 @@ body {
     background-color: var(--surface-0);
     color: var(--text-1);
 
-    padding-block-start: 10vb;
+    padding-block-start: 6vb;
 }
 
 input,
@@ -58,6 +58,11 @@ h1 {
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1;
+}
+
+.logo {
+    margin-bottom: 4rem;
+    margin-left: 3rem;
 }
 
 label {
