@@ -13,19 +13,23 @@
 
     <form action="example.com/path" method="post">
         <p>
-            <label for="first_name">*Fist Name:</label>
+            <label for="first_name">*What should we call you?:</label>
             <input type="text" name="first_name" id="first_name" placeholder="Your first name">
         </p>
         <p>
-            <label for="last_name">*Last Name:</label>
-            <input type="text" name="last_name" id="last_name" placeholder="Your last name">
+            <label for="user_email">*Your email to connect:</label>
+            <input type="email" name="email" id="email" placeholder="name@email.com">
         </p>
         <p>
-            <label for="user_email">*email:</label>
-            <input type="email" name="email" id="email" placeholder="Your email">
+            <label for="user_leak">What is your biggest leak?:</label>
+            <select name="user_leak" id="user_leak">
+                <option value="leak_work_life">Work-life blur</option>
+                <option value="leak_social_media">Social media</option>
+                <option value="leak_no_meTime">No 'me' time</option>
+            </select>
         </p>
         <p>
-            <label for="user_password">*Fist Name:</label>
+            <label for="user_password">*Create your secure password:</label>
             <input type="password" name="user_password" id="user_password" placeholder="**********">
         </p>
     </form>
